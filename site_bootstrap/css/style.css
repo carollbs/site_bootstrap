@@ -1,0 +1,72 @@
+body{
+  font-style: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.navbar{
+  background-color: #b3b3ff;
+}
+
+
+.navbar-brand{
+  margin-left: 15px;
+}
+
+.navbar-brand img{
+  width: 100px;
+  height: 100px;
+}
+
+.nav-item{
+  margin-left: 15px;
+}
+
+.quem-somos{
+  background-color: #8080ff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.quem-somos img{
+  width: 450px;
+  height: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.parceiros{
+  background-color: #9999ff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.servicos{
+  background-color: #8080ff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  width: 100%;
+}
+
+.servicos img{
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: 278px;
+  padding-top: 15px;
+  align-items: baseline;
+}
+
+footer{
+  background-color: #b3b3ff;
+  text-align: center;
+  color: #000033;
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
