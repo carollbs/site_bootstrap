@@ -1,6 +1,7 @@
 body{
   font-style: Arial, sans-serif;
   font-size: 20px;
+  background: #b3b3ff;
 }
 
 .navbar{
@@ -69,4 +70,83 @@ footer{
   font-size: 15px;
   padding-bottom: 5px;
   padding-top: 10px;
+}
+
+h3{
+  text-align: center;
+}
+
+.formulario{
+  align-items: center;
+  margin-left: 105px;
+  background-color: #9999ff;
+  text-align: center;
+  padding-bottom: 30px;
+  color: white;
+}
+
+form{
+  width: 400px;
+  padding: 1em;
+  margin-right: 5px;
+  margin-top: px;
+  text-align: left;
+  display: inline-block;
+  color: #e6e6ff;
+}
+
+input {
+display: inline-block;
+}
+
+input.name {
+ margin-left: 51px;
+}
+input.phone {
+ margin-left: 30px;
+}
+input.mail {
+ padding-right: 5px;
+ margin-left: 54px;
+}
+input.password {
+ margin-left: 49px;
+
+}
+
+textarea.message{
+  margin-left: 8px;
+}
+
+
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em arial;
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    /*-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    */
+  }
+
+textarea {
+  vertical-align: top;
+  resize: vertical;
+}
+
+button {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 30em;
+  background-color: #B0C4DE;
+}
+
+.button {
+  text-align: left;
+}
+
+label {
+  align-items: center;
 }
